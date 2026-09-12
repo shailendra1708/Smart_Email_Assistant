@@ -1,0 +1,59 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Build Tools
+# =========================
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+
+# Gradle
+.gradle/
+build/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
